@@ -8,6 +8,7 @@ Salah satu sektor yang paling terdampak dari kondisi pandemi Covid-19 adalah sek
 TUJUAN
 
 •Membuat analisa pemodelan sektor perhotelan berdasarakan sumber data sosiodemografi wilayah provinsi Jawa Barat
+
 •Menentukan variabel pendukung yang berkontribusi positif dan negatif terhadap perkembangan sektor perhotelan di wilayah Provinsi Jawa Barat
 
 BATASAN MASALAH
