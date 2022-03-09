@@ -5,10 +5,12 @@ LATAR BELAKANG
 Salah satu sektor yang paling terdampak dari kondisi pandemi Covid-19 adalah sektor perhotelan. Dimana penetapan kebijakan pembatasan pergerakan di seluruh wilayah provinsi Jawa Barat telah memutus rantai perekonomian kegiatan sektor perhotelan. Sektor perhotelan sendiri merupakan salah satu penyumbang sumber pendapatan asli daerah yang utama bersamaan dengan sektor pariwisata. Penurunan jumlah pendapatan asli daerah (PAD) pada sektor perhotelan terjadi sejak tahun 2018 hingga 2020. Selain itu, perbedaan kondisi dan karakterisiktik dari tiap wilayah kabupaten/kota di provinsi Jawa Barat merupakan tantangan tersendiri dalam penentuan kebijakan dan pengambilan keputusan yang tepat. Dalam rangka meningkatkan pemahaman terhadap kondisi sektor perhotelan di wilayah provinsi Jawa Barat, penulis mencoba melakukan analisa pemodelan sektor perhotelan dari sisi informasi data sosiodemografi.
 
 TUJUAN
+
 •Membuat analisa pemodelan sektor perhotelan berdasarakan sumber data sosiodemografi wilayah provinsi Jawa Barat
 •Menentukan variabel pendukung yang berkontribusi positif dan negatif terhadap perkembangan sektor perhotelan di wilayah Provinsi Jawa Barat
 
 BATASAN MASALAH
+
 •Data secara umum merupakan informasi sosiodemografi provinsi Jawa Barat
 •Data tersedia dalam kategori spasial pada tingkat level Kabupaten/Kota
 •Data tersedia pada rentang tahunan pada periode 2014 – 2020
@@ -17,6 +19,7 @@ BATASAN MASALAH
 •Informasi pemodelan (Independent Variables) menggunakan 104 jenis fitur pendukung
 
 SUMBER DATA PENGOLAHAN
+
 Sumber data yang digunakan berasal dari berbagai sumber data baik dari yang disediakan oleh tim panitia Turnamen Sains Data Nasional 2021 maupun sumber data eksternal lainnya dengan rincian sebagaimana table di bawah ini. Penentuan pemilihan sumber data yang digunakan pada mengacu pada rincian batasan masalah.
 
 PROSES PENGOLAHAN DATA
@@ -38,6 +41,7 @@ Library yang digunakan:
 9. Shapley Additive Explanationm (SHAP)
 
 INTERPRETASI HASIL
+
 Dalam hal melakukan interpretasi hasil, kami menggunakan parameter nilai SHAP untuk melihat kontribusi dari ke-22 fitur sampel terhadap total Pendapatan Asli Daerah (PAD) dari sektor perhotelan di tiap lokasi Kabupaten/Kota provinsi Jawa Barat. Shapley Additive Explanations (SHAP) adalah metode yang diperkenalkan oleh Lundberg dan Lee pada tahun 2017 untuk interpretasi prediksi model Machine Learning melalui nilai Shapely.
 
 Dengan menggunakan informasi sebagaimana terlampir pada slide sebelumnya, kita akan mencoba melakukan analisa kontribusi nilai SHAP terhadap nilai PAD di wilayah Kabupaten Kuningan. 
