@@ -1,4 +1,4 @@
-# Analisa-Featuer-Importance-Data
+# Analisa-Feature-Importance-Data
 Analisa Data Sosiodemografi pada sektor perhotelan
 
 LATAR BELAKANG
