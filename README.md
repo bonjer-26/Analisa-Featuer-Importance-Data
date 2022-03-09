@@ -2,6 +2,7 @@
 Analisa Data Sosiodemografi pada sektor perhotelan
 
 LATAR BELAKANG
+
 Salah satu sektor yang paling terdampak dari kondisi pandemi Covid-19 adalah sektor perhotelan. Dimana penetapan kebijakan pembatasan pergerakan di seluruh wilayah provinsi Jawa Barat telah memutus rantai perekonomian kegiatan sektor perhotelan. Sektor perhotelan sendiri merupakan salah satu penyumbang sumber pendapatan asli daerah yang utama bersamaan dengan sektor pariwisata. Penurunan jumlah pendapatan asli daerah (PAD) pada sektor perhotelan terjadi sejak tahun 2018 hingga 2020. Selain itu, perbedaan kondisi dan karakterisiktik dari tiap wilayah kabupaten/kota di provinsi Jawa Barat merupakan tantangan tersendiri dalam penentuan kebijakan dan pengambilan keputusan yang tepat. Dalam rangka meningkatkan pemahaman terhadap kondisi sektor perhotelan di wilayah provinsi Jawa Barat, penulis mencoba melakukan analisa pemodelan sektor perhotelan dari sisi informasi data sosiodemografi.
 
 TUJUAN
@@ -25,11 +26,13 @@ Sumber data yang digunakan berasal dari berbagai sumber data baik dari yang dise
 PROSES PENGOLAHAN DATA
 
 Environment aplikasi yang digunakan:
+
 1. Python 3.7.6
 2. Tableau Desktop
 3. IDE: Jupyter Notebook
 
 Library yang digunakan:
+
 1. Numpy
 2. Pandas
 3. Sklearn
@@ -57,6 +60,7 @@ Selain itu juga diberikan informasi mengenai kondisi pergerakan (mobility) pendu
 
 
 KESIMPULAN
+
 Keberagaman kondisi sosiodemografi dari tiap wilayah Kabupaten/Kota di Provinsi Jawa Barat membutuhkan kebijakan dan pengambilan keputusan yang spesifik dari tiap wilayah. Dengan menggunakan Dashboard Analisa Feature-Importance Data Sosiodemografi di Wilayah Provinsi Jawa Barat, melalui pemanfaatan distribusi nilai parameter SHAP dari model yang dihasilkan, kita dapat menentukan komponen mana yang paling dominan dan berpengaruh dari tiap wilayah lokasi Kabupaten/Kota.
 
 Melalui penilaian ini kita dapat menentukan komponen apa saja yang menjadi perhatian dalam melakukan analisa lebih jauh, penentuan kebijakan serta pengambilan keputusan yang lebih baik dalam rangka meningkatkan potensi sektor perhotelan dari tiap wilayah Kabupaten/Kota di provinsi Jawa Barat.
